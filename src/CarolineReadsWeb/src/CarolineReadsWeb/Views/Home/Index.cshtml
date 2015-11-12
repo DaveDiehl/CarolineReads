@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    // ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caroline Reads</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+</head>
+<body>
+    <div id="page" class="container row">
+        <header id="header" class="container col-md-12">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand">Caroline Reads </a>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Favorites</a></li>
+                            <li><a href="#">Recently Read</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section id="body" class="container col-md-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">What's Caroline Reading Now</div>
+                <div class="panel-body">
+
+                    <table class="table">
+                        <thead class="text-info">
+                            <tr>
+                                <td>Title</td>
+                                <td>Progress</td>
+                                <td>Comment</td>
+                                <td>Action</td>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Big Truths for Little Kids</td>
+                            <td>100%</td>
+                            <td>Likes Cassie</td>
+                            <td><button class="btn-xs btn-link">delete</button></td>
+                        </tr>
+                    </table>
+                    <button class="btn btn-link">add</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="rightRail" class="container col-md-3 col-md-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">Reviews by Caroline</div>
+                <div class="panel-body">
+                    <strong>A Walk in the Woods</strong>
+                    <small>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</small>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="js/bootstrap.js" ></script>
+</body>
+</html>

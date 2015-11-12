@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "CarolineReadsWeb"
+  },
+  "hostingPlanName": {
+    "value": "Base"
+  },
+  "siteLocation": {
+    "value": "South Central US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "38904dd4-8b58-4e27-b1ba-8f7102137271"
+  },
+  "resourceGroup": {
+    "value": "Group"
+  }
+}

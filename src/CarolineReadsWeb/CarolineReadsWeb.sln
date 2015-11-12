@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{72BDA6B6-167A-4EC5-972A-1568C9549984}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A570CFB-D5F0-466C-8852-F99AE399F30F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CarolineReadsWeb", "src\CarolineReadsWeb\CarolineReadsWeb.xproj", "{3A8AE4AE-5B45-439D-B397-604DC5BBFD7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{18E4E08F-6CD9-459D-BA8C-4CB6AC49FE35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{EA26B039-2B9C-49CA-891A-DCE1ED4FF887}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{A202AB36-2A1E-46D2-81D9-3D5A086B21FE}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\CarolineReadsWeb.json = PublishScripts\Templates\CarolineReadsWeb.json
+		PublishScripts\Templates\CarolineReadsWeb.param.dev.json = PublishScripts\Templates\CarolineReadsWeb.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A8AE4AE-5B45-439D-B397-604DC5BBFD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8AE4AE-5B45-439D-B397-604DC5BBFD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8AE4AE-5B45-439D-B397-604DC5BBFD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8AE4AE-5B45-439D-B397-604DC5BBFD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A8AE4AE-5B45-439D-B397-604DC5BBFD7F} = {72BDA6B6-167A-4EC5-972A-1568C9549984}
+		{EA26B039-2B9C-49CA-891A-DCE1ED4FF887} = {18E4E08F-6CD9-459D-BA8C-4CB6AC49FE35}
+		{A202AB36-2A1E-46D2-81D9-3D5A086B21FE} = {18E4E08F-6CD9-459D-BA8C-4CB6AC49FE35}
+	EndGlobalSection
+EndGlobal
